@@ -1,3 +1,12 @@
+"""
+base component for my wpm calculator
+V0 - skeleton setup
+V1 - first component added
+V2 - changed to working game
+author - Jasmine Chen
+2023
+"""
+
 # libraries
 from faker import Faker
 import time

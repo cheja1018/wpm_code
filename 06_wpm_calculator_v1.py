@@ -1,14 +1,15 @@
+#  import libraries
 import time
 
-
-def calculate_wpm(text, elapsed_time):
-    words = text.split()
-    word_count = len(words)
+# functions goes here
+def calculate_wpm(text, elapsed_time):  # calculate wpm
+    words = text.split()  # split to count words
+    word_count = len(words)  # add length of no. of words
     minutes = elapsed_time / 60
     wpm = word_count / minutes
     return wpm
 
-
+# put main together
 def main():
     input("Press Enter to start the timer...")
 
@@ -26,5 +27,6 @@ def main():
     print("Your WPM: {:.2f}".format(wpm))
 
 
+# print functions
 if __name__ == '__main__':
     main()
